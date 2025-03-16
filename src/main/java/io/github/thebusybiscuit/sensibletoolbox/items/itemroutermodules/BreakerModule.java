@@ -91,8 +91,8 @@ public class BreakerModule extends DirectionalItemRouterModule {
         registerCustomIngredients(bm);
         ShapelessRecipe recipe = new ShapelessRecipe(getKey(), toItemStack());
         recipe.addIngredient(bm.getMaterial());
-        recipe.addIngredient(Material.DIAMOND_PICKAXE);
-        recipe.addIngredient(Material.HOPPER);
+        recipe.addIngredient(Material.TRIDENT);
+        recipe.addIngredient(Material.NETHERITE_BLOCK);
         return recipe;
     }
 
